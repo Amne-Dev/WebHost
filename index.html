@@ -2,9 +2,13 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
     <style>
       body {
-        font-size: 48px;
+        font-size: 21px;
+        background-color: aliceblue;
       }
       div:nth-child(1) {
         font-family: 'Crimson Pro', serif;
@@ -12,16 +16,56 @@
       div:nth-child(2) {
         font-family: 'Literata’, serif;
       }
+      h1 {
+        font-size: 48px;
+        font-family: 'Cairo', sans-serif;
+        margin-left: 40px;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: aliceblue;
+      }
+
+      li {
+        float: right;
+      }
+
+      li a {
+        display: inline;
+        color: #119aa2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Cairo', sans-serif;
+      }
+
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #01b962;
+      }
     </style>
     <title>GeomaDev</title>
     <link rel="icon" type="image/ico" href="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/logo.ico">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
-    <img src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/logo.png" alt="GeomaDev" width="250" height="125"">
+    <ul>
+      <li><a href="Home/">Home</a></li>
+      <li><a href="news.asp">News</a></li>
+      <li><a href="contact.asp">Contact</a></li>
+      <li><a href="About/">About</a></li>
+      <img src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/logo.png" alt="GeomaDev" width="250" height=150"">
+    </ul>
+   
+
 </head>
 <body>
-    <head>Geospatial Data processing is our concern</head>
+
+  <br>
+    <h1>Geospatial Data processing is our concern </h1>
     <p>
      Test line 1
     </p>
