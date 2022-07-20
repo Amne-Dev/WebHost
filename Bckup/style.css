@@ -1,0 +1,44 @@
+body {
+    font-size: 21px;
+    background-color: aliceblue;
+  }
+  div:nth-child(1) {
+    font-family: 'Crimson Pro', serif;
+  }
+  div:nth-child(2) {
+    font-family: 'Literata’, serif;
+  }
+  h1 {
+    font-size: 48px;
+    font-family: 'Cairo', sans-serif;
+    margin-left: 40px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+  }
+
+  li {
+    float: right;
+  margin-top: 15px;
+  }
+
+  li a {
+    display: inline;
+    color: #119aa2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+  }
+
+  li a:hover {
+    border-radius: 20px;
+    padding: 6px 16px;
+    border: 2px solid #119aa2;
+    color: black;
+
+  }
