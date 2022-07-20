@@ -5,58 +5,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
-    <style>
-        body {
-          font-size: 21px;
-          background-color: aliceblue;
-        }
-        div:nth-child(1) {
-          font-family: 'Crimson Pro', serif;
-        }
-        div:nth-child(2) {
-          font-family: 'Literata’, serif;
-        }
-        span h1 {
-          font-size: 48px;
-          font-family: 'Cairo', sans-serif;
-          margin-left: 40px;
-        }
-        p1{
-            font-size: 16px;
-          font-family: 'Cairo', sans-serif;
-          margin-left: 16px;
-        }
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: aliceblue;
-        }
-  
-        li {
-          float: right;
-        margin-top: 15px;
-        }
-  
-        li a {
-          display: inline;
-          color: #119aa2;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-family: 'Cairo', sans-serif;
-        }
-  
-        /* Change the link color to #111 (black) on hover */
-        li a:hover {
-          border-radius: 20px;
-          padding: 6px 16px;
-          border: 2px solid #119aa2;
-          color: black;
-      
-        }
-      </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="index.css">
     <title>GeomaDev</title>
     <link rel="icon" type="image/ico" href="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/logo.ico">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -72,8 +22,14 @@
 
 </head>
 <body>
-    <video src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/Mountainsc.mp4"></video>
-    <span><h1>Data processing is our concern</h1></span>
-    <p1>GEOMADEV is a young, innovative company that specializes in geomatics and spatial analysis. Key people on the team have years of experience in a variety of fields, including geomatics, with a specialized understanding of geomatic tools. We offer all services related to Geographic Information production and can control the entire production line from acquisition to processing, analysis and representation. </p1>
+  <section id="banner">
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+      <source src="https://vod-progressive.akamaized.net/exp=1658362167~acl=%2Fvimeo-prod-src-reg-us-east1%2Fvideos%2F3305288094~hmac=4bb8aa48e8dc42a524d94841c49983a30806da4c0045cd1d93ab11c1b6f7de19/vimeo-prod-src-reg-us-east1/videos/3305288094" type="video/mp4">
+           Sorry, your browser does not support HTML5 video.
+     </video>
+     <p>This is text that is in front of video, we do not want the z-index of video to be greater than content. Hence background!
+     </p>
+  </section>
+
 </body>
 </html>
