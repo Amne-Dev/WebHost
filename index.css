@@ -225,4 +225,7 @@ header
   .contact {
     position: absolute;
     right: 8em;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
   }
