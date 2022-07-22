@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  overflow: hidden;
 }
 header
 {
@@ -17,13 +18,14 @@ header
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: visible;
 }
 .logo
 {
   margin-top: 8em;
-  width: 960;
-  height: 540;
+transform: scale(75%);
   position: absolute;
+  z-index: 10;
 }
 .toggle
 {
