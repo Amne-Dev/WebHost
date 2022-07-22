@@ -1,92 +1,26 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>GeomaDev</title>
-    <link rel="icon" type="image/ico" href="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/logo.ico">
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-    <ul>
-      <li><a href="#About">About</a></li>
-      <li><a href="#Contact">Contact</a></li>
-      <li><a href="#Home">Home</a></li>
-      <img src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/logo.png" alt="GeomaDev" width="250" height=150"">
-    </ul>
-   
-
-</head>
-<body>
-
-  <br>
-  <section id="Home"><h1>Geospatial Data processing is our concern </h1>
-    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-      <source src=  type="video/mp4">
-           Sorry, your browser does not support HTML5 video.
-     </video>
-    <h2>
-     Test line 1
-    </h2>
-
-    <br>
-    
-    <h3>
-
-      Test line 2
-
-    </h3>
-  </section>
-  <section id="About">
-
-  </section>
-
-  <section id="Contact">
-
-  </section>
-</body>
-<footer>
-
-  <style>
-    footer{
-      background: linear-gradient(aliceblue,rgb(221, 221, 221) 0%,rgb(190, 190, 190) 50%, rgb(160, 160, 160) 75%);
-      height: 500px;
-      text-align: center;
-      
-    }
-  </style>
-  <p>GeomaDev 2022 - Copy Right</p>
-
-
-</footer>
-</html>
+<section class="showcase">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <header>
+    <img class= logo src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/logo.png" alt="GeomaDev" href="#">
+    <div class="toggle"></div>
+  </header>
+  <video src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/Mountain%20-%2022512.mp4" muted loop autoplay></video>
+  <div class="overlay"></div>
+  <div class="text">
+    <h2>Geospatial</h2> 
+    <h3> Data processing is our concern</h3>
+    <p>GEOMADEV is a young, innovative company that specializes in geomatics and spatial analysis. Key people on the team have years of experience in a variety of fields, including geomatics, with a specialized understanding of geomatic tools. We offer all services related to Geographic Information production and can control the entire production line from acquisition to processing, analysis and representation. </p>
+    <a href="#">Explore</a>
+  </div>
+</section>
+<div class="menu">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Destination</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
