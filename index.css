@@ -29,6 +29,7 @@ body{
 transform: scale(75%);
   position: absolute;
   z-index: 10;
+  opacity: 1;
 }
 .toggle
 {
@@ -214,7 +215,7 @@ transform: scale(75%);
   }
 }
 .pagelogo {
-
+  transform: scale(60%);
     position: absolute;
     top: 0;
     left: 0;
@@ -255,5 +256,11 @@ transform: scale(75%);
     right: 0; 
     bottom: 6px;
   
+    
+  }
+
+  .text.mtext:hover{
+    transform: scale(125%);
+    transition-duration: 1s;
     
   }
