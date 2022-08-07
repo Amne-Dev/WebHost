@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+
 }
 header{
   position: absolute;
@@ -45,7 +46,7 @@ nav{
   transition: 0.5s;
   z-index: 2;
   overflow: hidden;
-
+  background: #1e1e26;
 }
 .showcase.active{
   right: 300px;
@@ -181,22 +182,23 @@ nav{
 }
 
 #slider{
-  display: inline-flex;
+  display: block;
+
 }
 
 .msg-container{
-  width: 900px;
+  width: 100%;
   height: 400px;
   position: absolute;
-  overflow: hidden;
   transform: translateY(-25%);
-  left: 14%;
   top: 57%;
+  ;
 }
 
 .msg-col{
   width: 900px;
   height: 400px;
+  margin-bottom: 400px;
 }
   
 .controller{
@@ -207,34 +209,23 @@ nav{
   position: absolute;
   top: 55%;
   right: 50px;
-  transform: translateY(-50%);
+  transform: translateY(-35%);
 }
 
-#line1{
-  height: 110px;
-  width: 10px;
-  cursor: pointer;
-  transform: translateX(-50%);
-  background: #fff;
+#A1,#A2{
+  width: 100%;
+  background: #1e1e26;
+  
+}
+#PA1,#PA2{
+  height: 350px;
+  width: 100%;
+  background: #1e1e26;
 }
 
-#line2{
-  height: 110px;
-  width: 10px;
-  cursor: pointer;
-  transform: translateX(-50%);
-  background: #fff;
-}
 
-#line3{
-  height: 110px;
-  width: 10px;
-  cursor: pointer;
-  transform: translateX(-50%);
-  background: #fff;
-  position:absolute;
-  right: 50px;
-}
+
+
 
 @media (max-width: 991px){
     .showcase,

@@ -1,15 +1,21 @@
-var slider  = document.getElementById('slider')
-var active  = document.getElementById('active')
-var line1  = document.getElementById('line1')
-var line2  = document.getElementById('line2')
-var line3  = document.getElementById('line3')
+var bMain  = document.getElementById('bMain')
+var Main  = document.getElementById('Main')
+var bA1  = document.getElementById('bA1')
+var A1  = document.getElementById('A1')
+var bA2  = document.getElementById('bA2')
+var A2  = document.getElementById('A2')
 
-line1.onclick = function(){
-  slider.style.transform = 'translateX(0)'
+
+setTimeout(bMain.onclick = function(){
+  A1.style.transform = 'translateX(75%)'
+},1000
+);
+
+bA1.onclick = function(){
+  A2.style.transform = 'translateX(75%)'
 }
-line2.onclick = function(){
-  slider.style.transform = 'translateX(-25%)'
+;
+bA2.onclick = function(){
+  Main.style.transform = 'translateX(0)'
 }
-line3.onclick = function(){
-  slider.style.transform = 'translateX(-50%)'
-}
+;
