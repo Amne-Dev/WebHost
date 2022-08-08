@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<section class="showcase">
+<section class="showcase" id="showcase">
   <link rel="stylesheet" href="index.css">
 <link rel="shortcut icon" href="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/logo.ico" type="image/x-icon">
   <script src="index.js"></script>
@@ -8,25 +8,27 @@
     <title>GeomaDev</title>
   </head>
   <header>
-<div class="navbar">
+    <div id="top"></div>
+<div class="navbar" id="navbar">
   <div class="logo">
     <img class= logo src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/relogo.png" alt="GeomaDev" href="#">
   </div>
   <nav>
     <ul>
-      <h4><a class="contact" href="mailto:contact@geomadev.ma">contact@geomadev.ma </a></h4>
+      <h4><a class="contact" id="contact" href="mailto:contact@geomadev.ma">contact@geomadev.ma </a></h4>
     </ul>
   </nav>
 </div>
   </header>
   <body>
-    <img class=pagelogo src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/pagelogo.png" >
-  <video src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/clouds-II.mp4" muted loop autoplay></video>
+ 
+    <img class=pagelogo id="pagelogo" src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/pagelogo.png" >
+  <video id="vid1" src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/clouds-II.mp4" muted loop autoplay></video>
   <div class="overlay"></div> 
   <div class="text">
     <div class="msg-container">
       <div id="slider">
-        <div class="msg-col" id="main">
+        <div class="msg-col" class="main" id="main">
           <h3>GeoSpatial Data processing</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio officia magni reiciendis, aliquid vitae quae.</p>
           <a id="bMain" href="#PA1">Explore</a>
@@ -42,12 +44,16 @@
           <h3>Our vision</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur rerum ab illo blanditiis! Officia, maxime.</p>
           <a id="bA2" href="#">Check it out</a>
+          <div id="PA3"></div>
         </div>
       </div>
         <div class="controller">
       </div>
+      
     </div>
 
 </section>
-
+<div class="reset">
+  <button class="reset" onclick="topFunction()" id="resetbtn" title="Go back up"><img src="https://raw.githubusercontent.com/Amne-Dev/WebHost/main/.files/up-arrow-32.png" alt="Go back up"></button>
+</div>
 </body>

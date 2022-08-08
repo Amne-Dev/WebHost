@@ -1,21 +1,17 @@
-var bMain  = document.getElementById('bMain')
-var Main  = document.getElementById('Main')
-var bA1  = document.getElementById('bA1')
-var A1  = document.getElementById('A1')
-var bA2  = document.getElementById('bA2')
-var A2  = document.getElementById('A2')
+resetbtn = document.getElementById("resetbtn");
+document.documentElement.scrollTop = 0;
 
+window.onscroll = function() {scrollFunction()};
 
-setTimeout(bMain.onclick = function(){
-  A1.style.transform = 'translateX(75%)'
-},1000
-);
-
-bA1.onclick = function(){
-  A2.style.transform = 'translateX(75%)'
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 600) {
+    resetbtn.style.display = "block";
+  } else {
+    resetbtn.style.display = "none";
+  }
 }
-;
-bA2.onclick = function(){
-  Main.style.transform = 'translateX(0)'
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
 }
-;

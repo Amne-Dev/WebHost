@@ -204,13 +204,13 @@ nav{
   
 .controller{
   width: 1px;
-  height: 440px;
+  height: 320px;
   display: block;
   background: #f0f8ff;
   position: absolute;
-  top: 55%;
+  top: 50%;
   right: 50px;
-  transform: translateY(-35%);
+  transform: translateY(-50%);
 }
 
 #A1,#A2{
@@ -218,15 +218,39 @@ nav{
   background: #1e1e26;
   
 }
-#PA1,#PA2{
+#PA1,#PA2,#PA3{
   height: 350px;
   width: 100%;
   background: #1e1e26;
 }
 
+.reset{
+  display: none;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 32px;
+  width: 32px;
+  border-radius: 10px;
+  z-index: 99;
+  background: #f0f8ff;
+  margin: 10px;
+  opacity: 45%;
+  border: none;
+  outline: none;
 
+}
 
+.reset:hover{
+  opacity: 100%;
+}
 
+.top{
+  height: 5px;
+  top: 0;
+  z-index: -2;
+  margin-top: 0;
+}
 
 @media (max-width: 991px){
     .showcase,
