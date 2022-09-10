@@ -302,7 +302,7 @@ a {
    }
 }
 
-/*Sample section*/
+/*About section*/
     #About{
         margin: 0;
         padding: 0;
@@ -331,11 +331,41 @@ a {
 
       #About p{
         position: absolute;
-        font-size: 16px;
+        font-size: 24px;
         margin: 20% 25%;
 
       }
 
+    /*Contact Section*/
+      #contact{
+        background: #333;
+        height: 120px;
+        width: 100%;
+        display: flex;
+      }
+
+      #contact h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        width: 100%;
+        
+      }
+
+      #contact h1 a{
+        text-align: center;
+        font-weight: 500;
+        font-size: 24px;
+        color: #fff;
+        
+      }
+
+      #contact h1 a:hover{
+        scale: 125%;
+        color: rgb(211, 233, 253);
+        margin-top: 0.25%;
+      }
+      
 
       
 
