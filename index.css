@@ -24,17 +24,21 @@ header{
 body{
   overflow: visible ;
   scroll-behavior: smooth;
+  background-color: #6f99ac;
 }
+
 .body-bg{
+
 padding: 0;
 margin: 0;
 z-index: -1;
 position: fixed;
 overflow: hidden;
-filter: blur(10);
-filter: saturate(2);
-scale: 1;
-object-fit: cover;
+filter: blur(30px) saturate(2);
+scale: 2;
+object-fit: fill;
+opacity: 0.8;
+mix-blend-mode: overlay;
 
 
 
