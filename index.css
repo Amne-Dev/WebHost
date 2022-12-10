@@ -5,6 +5,8 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  list-style: none;
+  
 
 }
 header{
@@ -46,7 +48,7 @@ nav{
   background: #111;
   transition: 0.5s;
   z-index: 2;
-  overflow: hidden;
+  overflow: auto;
   background: #1e1e26;
 }
 .showcase.active{
